@@ -1,12 +1,17 @@
 package dionarap;
 
-public class Hauptfenster {
+import javax.swing.JFrame;
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
 
-  public static void main(String[] args) {
+public class Hauptfenster extends JFrame {
 
-    // hallo hier ri pc
-    // hier nochmal
+	
+	private static final long serialVersionUID = 1L;
 
-  }
+	public static void main(String[] args) {
+		
+		System.out.println("Hallo mama");
+	}
 
 }
